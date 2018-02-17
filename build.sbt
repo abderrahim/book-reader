@@ -9,7 +9,7 @@ version := "0.1-SNAPSHOT"
 instrumentTestRunner :=
   "android.support.test.runner.AndroidJUnitRunner"
 
-platformTarget := "android-27"
+platformTarget := "android-25"
 
 javacOptions in Compile ++= "-source" :: "1.7" :: "-target" :: "1.7" :: Nil
 
